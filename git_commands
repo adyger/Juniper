@@ -1,0 +1,39 @@
+
+cd ~/Juniper
+
+git status
+
+git pull
+
+Downloads latest updates from GitHub
+Use BEFORE editing files
+
+git add file1.docx     - Prepares file for commit
+
+git add .              - Adds ALL changed files
+
+git commit -m "Updated Juniper notes" - Saves snapshot locally
+
+git push - Uploads changes to GitHub cloud
+           Windows can then pull them
+
+git remote -v         - Shows if repo is connected to GitHub
+
+git log --oneline     - Shows past commits
+
+git ls-files          - Shows files stored in Git history
+
+Common fix commands
+If something looks wrong:
+
+git status 
+
+If you forgot upstream branch:
+
+git branch --set-upstream-to=origin/main
+
+ssh -T git@github.com - Confirms login works
+
+
+
+
