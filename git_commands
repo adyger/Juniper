@@ -3,10 +3,8 @@ cd ~/Juniper
 
 git status
 
-git pull
-
-Downloads latest updates from GitHub
-Use BEFORE editing files
+git pull               - Downloads latest updates from GitHub
+                         Use BEFORE editing files
 
 git add file1.docx     - Prepares file for commit
 
@@ -34,6 +32,23 @@ git branch --set-upstream-to=origin/main
 
 ssh -T git@github.com - Confirms login works
 
+----------------------------------------
+
+git rm testfile1.txt         - remove file from git and disk 
+
+git commit -m "Remove file"
+
+git push
+
+----------------------------------------
+
+git rm --cached testfile1.txt   - Remove file from Git BUT keep it on disk
+
+git commit -m "Stop tracking file"
+
+git push
+
+----------------------------------------
 
 
 
